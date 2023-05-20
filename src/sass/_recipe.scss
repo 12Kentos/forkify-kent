@@ -10,7 +10,7 @@
     transform-origin: top;
 
     &::before {
-      content: '';
+      content: "";
       display: block;
       height: 100%;
       width: 100%;
@@ -164,6 +164,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    grid-column-start: span 2;
   }
 
   &__directions-text {
